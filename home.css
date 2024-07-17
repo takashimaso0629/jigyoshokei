@@ -83,8 +83,9 @@ section{
 }
 
 .main-title{
-    font-size: 5.5rem;
-    margin-bottom: 50px;
+	padding-top: 60px; /* ヘッダーの高さ分の余白をいれ、うしろの要素が隠れないようにする */
+	font-size: 5.5rem;
+	margin-bottom: 50px;
 }
 
 .sub-title{
@@ -173,7 +174,7 @@ section{
 
 
 .info a:hover {
-    color: deepskyblue;
+    color: white;
     font-size: 1.3rem;
 
 }
@@ -199,7 +200,7 @@ section{
 
 
 .info2 a:hover {
-    color: deepskyblue;
+    color: white;
     font-size: 1.3rem;
 
 }
@@ -227,7 +228,7 @@ section{
 
 
 .media-info a:hover {
-    color: deepskyblue;
+    color: white;
     font-size: 1.3rem;
 }
 
@@ -318,7 +319,7 @@ section{
 
 
 .info a:hover {
-    color: deepskyblue;
+    color: white;
     font-size: 1.3rem;
 
 }
@@ -378,6 +379,8 @@ section{
 
 
 header {
+	position: fixed; /*** ← fixedで固定 ***/
+	z-index: 9999;
 	width: 100%;
 	height: 80px;
 	padding: 5px 0;
