@@ -83,7 +83,6 @@ section{
 }
 
 .main-title{
-	padding-top: 60px; /* ヘッダーの高さ分の余白をいれ、うしろの要素が隠れないようにする */
 	font-size: 5.5rem;
 	margin-bottom: 50px;
 }
@@ -379,8 +378,6 @@ section{
 
 
 header {
-	position: fixed; /*** ← fixedで固定 ***/
-	z-index: 9999;
 	width: 100%;
 	height: 80px;
 	padding: 5px 0;
