@@ -21,7 +21,7 @@ a:hover {
 
 
 body {
-  background-image: url("jigyo_bg.png");
+  background-image: url("jigyo_bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -36,7 +36,7 @@ body {
       #0028b960 40%, 
       #00f3ff60 60%, 
       #00f3ffA0), 
-    url("jigyo_bg.png");
+    url("jigyo_bg.jpg");
   background-repeat: no-repeat;
   background-position: 50%;
   animation: move 20s infinite both;
